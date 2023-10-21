@@ -3,5 +3,3 @@ Detection of lesions using endoscopic imaging data. We develop a lesion detectio
 
 
 
-잼민티비 ㅋㅋ 
-중딩한테 털렸쥬
