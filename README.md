@@ -1,20 +1,31 @@
 # LesionDetector
-Detection of lesions using endoscopic imaging data. We develop a lesion detection model using meditation data of Capsule Endascopy (capsule endoscope), which is used for minimally invasive surgery. Muti-Class Object Detection is performed and the number of classes is 4.
+Detection of lesions using endoscopic imaging data.
+
+We develop a lesion detection model using meditation data of Capsule Endascopy (capsule endoscope), which is used for minimally invasive surgery. 
+
+Muti-Class Object Detection is performed and the number of classes is 4.
+
+## [[LesionDetector results report🤩_Google Slides]](https://docs.google.com/presentation/d/1czDgY-yaeu8xQ2Nsb3zrnCk0k8tPcUC3Hf3JP6nbm-c/edit?usp=sharing)
 
 ## 01 Data set
-1. train - 학습용 json 파일 62622개
-2. test - 평가용 json 파일 20874개
-### 이미지 데이터는 base64형식으로 json파일에 포함되어있다.
-3. class_id.csv - 객체별 제출 id정보
+1. train - 62,622 training JSON files.
+2. test - 20,874 test JSON files.
+#### *The image data is included in the JSON files in base64 format.
 
-| class : 객체이름| class_id : 객체 id|
+3. class_id.csv -  ID information for submission by object type.
+
+<div align="center">
+  
+|Class (Object Name)| Class_ID (Object ID)|
 | --------------- |----------:| 
 | 01_ulcer      |1|
 | 02_mass       |2| 
 | 04_lymph      |3|
 | 05_bleeding   |4|
 
-### base64 방식으로 디코딩된 이미지이다.
+</div>
+
+### The images are decoded using the base64 method.
 <p align="center"><img src ="https://github.com/hyeseon-cpu/Test/assets/128684012/fb59966b-5385-4f98-8bb1-da4d2cf91230" width="600"></p>
 
 ## 02 EDA
